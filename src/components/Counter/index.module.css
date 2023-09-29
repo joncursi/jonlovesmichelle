@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.flipOuterContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flipInnerContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flipLabel {
+  font-size: 10px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
