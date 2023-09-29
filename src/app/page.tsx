@@ -12,7 +12,6 @@ const Page = () => (
 
     <br />
     <br />
-    <br />
 
     <Counter
       color="orange"
@@ -36,14 +35,12 @@ const Page = () => (
 
     <br />
     <br />
-    <br />
-    <br />
 
     <div>I love you so much! ❤️</div>
 
     <br />
 
-    <img alt="I love you" src="/jlm/signature.png" width={150} />
+    <img alt="I love you" src="/jlm/signature.png" width={125} />
   </main>
 );
 
