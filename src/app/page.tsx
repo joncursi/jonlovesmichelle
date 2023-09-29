@@ -8,26 +8,30 @@ import styles from "./page.module.css";
 
 const Page = () => (
   <main className={styles.main}>
-    <Counter
-      color="orange"
-      date={new Date("1/26/2013")}
-      title="🎂 Friends For:"
-    />
+    <div>Michelle, thank you for being...</div>
 
+    <br />
+    <br />
     <br />
 
     <Counter
-      color="magenta"
-      date={new Date("7/01/2015")}
-      title="👩‍❤️‍👨 Lovers For:"
+      color="orange"
+      date={new Date("1/26/2013")}
+      title="🎂 My Friend:"
     />
 
+    <br />
+    <br />
+
+    <Counter color="magenta" date={new Date("7/01/2015")} title="👩‍❤️‍👨 My Love:" />
+
+    <br />
     <br />
 
     <Counter
       color="red"
       date={new Date("9/29/2019")}
-      title="💍 Life Partners For:"
+      title="💍 My Life Partner:"
     />
 
     <br />
