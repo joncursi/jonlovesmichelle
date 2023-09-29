@@ -10,10 +10,11 @@ export const metadata: Metadata = {
   creator: "Jon Cursi",
   description: "Jon loves Michelle very very very much.",
   icons: [
-    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
-    { rel: "icon", url: "/icon.png" },
+    { rel: "apple-touch-icon", url: "/jonlovesmichelle/apple-touch-icon.png" },
+    { rel: "icon", url: "/jonlovesmichelle/icon.png" },
   ],
   keywords: ["Jon", "Loves", "Michelle"],
+  manifest: "/jonlovesmichelle/manifest.json",
   publisher: "Jon Cursi",
   robots: { index: true, follow: true },
   themeColor: "#FFFFFF",
