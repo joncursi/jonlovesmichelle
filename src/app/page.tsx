@@ -55,7 +55,7 @@ export default function Home() {
           return (
             <div className={styles.counterInnerContainer} key={data.label}>
               <FlipNumbers
-                background="#000000"
+                background="red"
                 color="white"
                 height={50}
                 numbers={Math.abs(data.value).toString().padStart(2, "0")}
